@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script type="text/javascript">
+    window.onload = function(){
+      document.querySelector(".menuMobile").addEventListener("click", function(){
+        if(document.querySelector(".menu nav ul").style.display == 'flex') {
+          document.querySelector(".menu nav ul").style.display = 'none'; 
+        } else {
+          document.querySelector(".menu nav ul").style.display = 'flex';
+        }
+      });
+    };
+  </script>
+  <title>MediCenter</title>
+  <link rel="shortcut icon" href="./assets/images/favicon.ico">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+    </style>
+<body>
+<header>
+  <span id="topo"></span>
+  <div class="container">
+    <div class="logo">
+      <a href=""><img style="width: 300px" src="./assets/images/medicenter_logo.png" alt="Logo Medicenter"></a>
+    </div>
+    <div class="menu">
+      <nav>
+        <div class="menuMobile">
+          <div class="mm_line"></div>
+          <div class="mm_line"></div>
+          <div class="mm_line"></div>
+        </div>
+        <ul>
+          <li class="active"><a href="">Home</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Pages</a></li>
+          <li><a href="">Departments</a></li>
+          <li><a href="">Timetable</a></li>
+          <li><a href="">Gallery</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<section id="banner">
+  <div class="container column">
+    <div class="banner_headline">
+      <h1>Top notch experience</h1>
+      <h2>
+        Medicenter is a responsive template
+        perfect for all screen sizes.
+      </h2>
+    </div>
+    <div class="banner_options">
+      <div class="banner1">
+        <div class="banner_title">Emergency Case</div>
+        <div class="banner_desc">
+          If you need a doctor urgently outside of
+          medicenter opening hours, call emergency
+          appointment number for emergency service.
+          <br><br>
+          <a href="">Read More &#10230</a>
+        </div>
+      </div>
+      <div class="banner2">
+        <div class="banner_title">Doctors Timetable</div>
+        <div class="banner_desc">
+          Here at medicenter we have individual doctor's
+          lists. Click read more bellow to see services
+          and current timetable for our doctors.
+          <br><br>
+          <a href="">Read More &#10230</a>
+        </div>
+        
+      </div>
+      <div class="banner3">
+        <div class="banner_title">Opening Hours</div>
+        <div style="margin-top: 10px;" class="banner_line1">
+          <div class="banner_day">Monday - Friday</div>
+          <div class="banner_hour">08:00 - 17:00</div>
+        </div>
+        <div style="margin-top: 10px;" class="banner_line">
+          <div class="banner_day">Saturday</div>
+          <div class="banner_hour">09:30 - 17:30</div>
+        </div>
+        <div style="margin-top: 10px;" class="banner_line">
+          <div class="banner_day">Sunday</div>
+          <div class="banner_hour">09:30 - 15:00</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="geral">
+  <div class="container">
+    <section>
+      <div class="widget latest">
+        <div class="widget_title">
+          <div class="widget_title_text">Latest News</div>
+          <div class="widget_title_bar"></div>
+        </div>
+        <div class="widget_body flex">
+          <article>
+            <a href="">
+            <div class="news_date">
+              <div class="news_posted_at">21 DEC 26</div>
+              <div class="news_comments">2</div>
+            </div>
+            <div class="news_thumbnail">
+              <img src="./assets/images/news1.jpg" alt="Foto de uma médica examinando sangue">
+            </div>
+            <div class="news_title">
+              Lorem ipsum dolor sit amat velum
+            </div>
+            <div class="news_resume">
+              Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Ut volutpat rutrum eros
+              sit amet sollicitudin. Suspendisse pulvinar,
+              velit nec pharetra interdum, ante tellus
+              ornare mi, et mollis tellus neque vitae elit.
+              Mauris adipiscing mauris.
+            </div>
+          </a>
+          </article>
+          <article>
+            <a href="">
+            <div class="news_date">
+              <div class="news_posted_at">21 DEC 26</div>
+              <div class="news_comments">2</div>
+            </div>
+            <div class="news_thumbnail">
+              <img src="./assets/images/news1.jpg" alt="Foto de uma médica examinando sangue">
+            </div>
+            <div class="news_title">
+              Lorem ipsum dolor sit amat velum
+            </div>
+            <div class="news_resume">
+              Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Ut volutpat rutrum eros
+              sit amet sollicitudin. Suspendisse pulvinar,
+              velit nec pharetra interdum, ante tellus
+              ornare mi, et mollis tellus neque vitae elit.
+              Mauris adipiscing mauris.
+            </div>
+          </a>
+          </article>
+          <article>
+            <a href="">
+            <div class="news_date">
+              <div class="news_posted_at">21 DEC 26</div>
+              <div class="news_comments">2</div>
+            </div>
+            <div class="news_thumbnail">
+              <img src="./assets/images/news1.jpg" alt="Foto de uma médica examinando sangue">
+            </div>
+            <div class="news_title">
+              Lorem ipsum dolor sit amat velum
+            </div>
+            <div class="news_resume">
+              Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Ut volutpat rutrum eros
+              sit amet sollicitudin. Suspendisse pulvinar,
+              velit nec pharetra interdum, ante tellus
+              ornare mi, et mollis tellus neque vitae elit.
+              Mauris adipiscing mauris.
+            </div>
+          </a>
+          </article>
+          <article>
+            <a href="">
+              <div class="news_date">
+                <div class="news_posted_at">21 DEC 26</div>
+                <div class="news_comments">2</div>
+              </div>
+              <div class="news_thumbnail">
+                <img src="./assets/images/news1.jpg" alt="Foto de uma médica examinando sangue">
+              </div>
+              <div class="news_title">
+                Lorem ipsum dolor sit amat velum
+              </div>
+              <div class="news_resume">
+                Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Ut volutpat rutrum eros
+                sit amet sollicitudin. Suspendisse pulvinar,
+                velit nec pharetra interdum, ante tellus
+                ornare mi, et mollis tellus neque vitae elit.
+                Mauris adipiscing mauris.
+              </div>
+            </a>
+          </article>
+        </div>
+        <section>
+          <div class="page_blog">
+            <a href="">Show all &#10230</a> 
+          </div>
+        </section>
+      </div>
+    </section>
+    <aside>
+      <div class="widget departs">
+        <div class="widget_title">
+          <div class="widget_title_text">Departments</div>
+          <div class="widget_title_bar"></div>
+        </div>
+        <div class="widget_body_departs">
+          <a href class="widget_departs">
+            <img src="./assets/images/neurology_icon.png" alt="">
+          </a>
+          <a href="" class="widget_departs">
+            <img src="./assets/images/./pediatry_icon.png" alt="">
+          </a>
+          <a href="" class="widget_departs">
+            <img src="./assets/images/./cardiolody_icon.png" alt="">
+          </a>
+          <a href="" class="widget_departs">
+            <img src="./assets/images/./gynaecology_icon.png" alt="">
+          </a>
+          <a href="" class="widget_departs">
+            <img src="./assets/images/./ophtalmology_icon.png" alt="">
+          </a>
+          <a href="" class="widget_departs">
+            <img src="./assets/images/./dental_clinic_icon.png" alt="">
+          </a>
+        </div>
+      <div class="widget">
+        <div class="widget_title">
+          <div class="widget_title_text">Make An Appointment</div>
+          <div class="widget_title_bar"></div>
+        </div>
+        <div class="widget_body">
+          <div class="widget_body_title">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Ut volutpat rutrum eros sit amet sollicitudin.
+          </div>
+          <div class="widget_body_contacts">
+            <div class="icon">
+              <img src="./assets/images/phone_icon.png">
+            </div>
+            <a class="tel" href="tel:+1-800-643-4300">
+              by phone: <b style="color: black; font-weight: bold;">1-800-643-4300</b>
+            </a> 
+          </div>
+          <div class="widget_body_contacts">
+            <div class="icon">
+              <img src="./assets/images/mail_icon.png">
+            </div>
+            <mytag>by e-mail:</mytag> 
+            <a href="mailto:madicenter@mail.com">
+              medicenter@mail.com
+            </a>
+          </div>
+          <div class="widget_body_contacts">
+            <div class="icon">
+              <img src="./assets/images/form_icon.png">
+            </div>
+            <mytag>or</mytag>
+            <a href="">fill in the form</a>
+            &nbsp;on our contact page
+          </div>
+        </div>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<footer>
+  <div class="container flexColumn">
+    <div class="footer_menu">
+      <div class="fm_1">
+        <div class="footer_title">Health Insurance</div>
+        <div class="footer_desc">
+          <a href="">Here in medicenter we have individual</a> &rarr;
+        </div>
+      </div>
+      <div class="fm_2">
+        <div class="footer_title">Medical Records</div>
+        <div class="footer_desc">
+          <a href="">Here in medicenter we have individual</a> &rarr;
+        </div>
+      </div>
+      <div class="fm_3">
+        <div class="footer_title">Online Bill Pay</div>
+        <div class="footer_desc">
+          <a href="">Here in medicenter we have individual</a> &rarr;
+        </div>
+      </div>
+    </div>
+    <div class="footer_area">
+      <div class="footer_area_1">
+        <div class="widget">
+          <div class="widget_title">
+            <div class="widget_title_text">Medicenter Clinic</div>
+            <div class="widget_title_bar"></div>
+          </div>
+          <div class="widget_footer_body">
+            <div class="widget_footer_area_1">
+              Mauris adipiscing mauris fringilla turpis interdum sed
+              pulvinar nisi malesuada individual.
+
+            </div>
+            <div class="widget_footer_area_2">
+              <div class="widget_footer_column">
+                <br>
+                Medicenter Clinic <br>
+                33 Farlane Street <br>
+                Keilor East <br>
+                VIC 3033, Australia
+              </div>
+              <div class="widget_footer_column">
+                <br><br>
+                +123 655 655 <br>
+                +123 755 755 <br>
+                <a href="mailto:medicenter@mail.com">medicenter@mail.com</a>
+              </div>
+            </div>
+            <div class="social_media">
+              <a href="https://facebook.com" target="_blank">
+                <img src="./assets/images/facebook_logo.png" alt="">
+              </a>
+              <a href="https://instagram.com" target="_blank">
+                <img src="./assets/images/instagram_logo.png" alt="">
+              </a>
+              <a href="https://twitter.com/" target="_blank">
+                <img src="./assets/images/twitter_logo.png" alt="">
+              </a>
+              <a href="https://wa.me/+5524981544773" target="_blank">
+                <img src="./assets/images/whatsapp_logo.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_area_2">
+        <div class="widget">
+          <div class="widget_title">
+            <div class="widget_title_text">Latest Posts</div>
+            <div class="widget_title_bar"></div>
+          </div>
+          <div class="widget_body flex">
+            <ul>
+              <li>
+                <a href="">Mauris adipiscing mauris fringilla turpis
+                interdum sed pulvinar nisi malesuada.</a>
+              <p>2 hours ago</p>
+              <li>
+                <a href="">Lorem ipsum dolor sit amat velum.</a>
+                <p>1 day ago</p>
+              <li>
+                <a href="">Mauris adipiscing mauris fringilla turpis
+                interdum sed pulvinar nisi malesuada.</a>
+                <p>2 weeks ago</p>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer_area_3">
+        <div class="widget">
+          <div class="widget_title">
+            <div class="widget_title_text" style="color: white;">Latest Tweets</div>
+            <div class="widget_title_bar"></div>
+          </div>
+          <div class="widget_body flex">
+            <ul>
+              <li>
+                We proudly present SwimAcademy WordPress
+                Theme <a href="">t.co/7bomogbu6s</a>, dedicated to swimming schools
+                and trainers… <a href="">t.co/bFqiw4AY6w</a>
+                <p>2 weeks ago</p>
+              <li>
+                We've released new version (v6.8) of our #Timetable #Responsive
+                #Booking #Schedule #WP Plugin. Please check at… <a href="">t.co/hdxFfHD5NK</a>
+                <p>2 months ago</p>
+              <li>
+                We have released new version (v6.1) of our Prestige #Portfolio
+                #CV #vCard #WordPress #Theme Check at #ThemeForest <a href="">t.co/0jRV18Ce6x</a>
+                <p>3 months ago</p>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer_copyright">
+      <div class="copy_1">
+      &copy; Copyright - <a href="">Medicenter Template Project</a>
+       by <a href="https://github.com/MTaranto" target="_blank">Márcio Taranto</a>
+      </div>
+      <div class="copy_2">
+       <a href="#topo">Top</a> &uarr;
+      </div>
+    </div>
+</footer>
+
+</body>
+</html>
